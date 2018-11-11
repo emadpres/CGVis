@@ -7,4 +7,5 @@ cocos2d/
 # .VC.db: Will be rebuilt if neccessary
 proj.win32/.vs/ 
 proj.win32/*.VC.db
+proj.win32/*.VC.opendb
 proj.win32/Debug.*

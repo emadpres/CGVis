@@ -10,6 +10,12 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{5a93d304-7ffa-4e0b-ae29-3195e7a5f453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Pages">
+      <UniqueIdentifier>{44f320a7-2d61-4c3f-9833-9e515032bd9f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,6 +27,15 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Math\Point.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Pages\GiftWrapping.cpp">
+      <Filter>src\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Math\PointHelper.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -31,6 +46,15 @@
     </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Math\Point.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Pages\GiftWrapping.h">
+      <Filter>src\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Math\PointHelper.h">
+      <Filter>src\Math</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
